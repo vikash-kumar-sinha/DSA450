@@ -67,3 +67,4 @@ int ans=countInversion(a);
 cout<<ans;
 return 0;
 }
+
