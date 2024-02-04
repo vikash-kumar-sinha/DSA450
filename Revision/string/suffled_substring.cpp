@@ -31,10 +31,12 @@ return true;
 }
 
 int main(){
-    string a="roseyellow";
-    string b="yellow";
+    string a="window";
+    string b="nowidnwo";
 
     cout<<check(a,b)<<endl;
 
 return 0;
 }
+
+

@@ -4,7 +4,8 @@ using namespace std;
 #define el cout<<endl;
 #define pall(a) for(int i:a)cout<<i<<" ";
 #define piw(a) for(int i=0;i<a.size();i++)cout<<a[i]<<" ";
-//method 1
+#define fn(a,n) for(int i=a;i<=n;i++)
+// method 1
 // bool checkSubset(vi a,vi b){
 //     int f=1;
 //     for(int i=0;i<b.size();i++){
@@ -18,6 +19,7 @@ using namespace std;
 //         if(f==0)
 //         return false;
 //     }
+//cout<<"vikash";
 //     return true;
 // }
 //method 2
@@ -25,7 +27,7 @@ bool checkSubset(vi a,vi b){
     sort(a.begin(),a.end());
     sort(b.begin(),b.end());
     int i=0;int j=0;
-    
+    pall(a);
     while(i<a.size()&&j<b.size()){
     if(a[i]==b[j])
     {i++;j++;
