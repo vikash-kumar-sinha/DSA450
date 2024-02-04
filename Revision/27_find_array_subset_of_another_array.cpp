@@ -19,7 +19,7 @@ using namespace std;
 //         if(f==0)
 //         return false;
 //     }
-//cout<<"vikash";
+
 //     return true;
 // }
 //method 2
@@ -27,7 +27,7 @@ bool checkSubset(vi a,vi b){
     sort(a.begin(),a.end());
     sort(b.begin(),b.end());
     int i=0;int j=0;
-    pall(a);
+    
     while(i<a.size()&&j<b.size()){
     if(a[i]==b[j])
     {i++;j++;
